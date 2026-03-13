@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Banai Class Renamer</title>
+   <link rel="stylesheet" href="src/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2>📁 Web Banai Renamer</h2>
+      
+      <div id="app-content" style="display: none;">
+        <label for="folder-select">Select Folder to Rename:</label>
+        <select id="folder-select">
+          </select>
+
+        <label for="new-name-input">New Folder Name:</label>
+        <input type="text" id="new-name-input" placeholder="e.g., newsection" />
+
+        <button id="rename-btn">Rename Classes</button>
+      </div>
+
+      <div id="status" class="loading">Loading classes from Webflow...</div>
+    </div>
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
